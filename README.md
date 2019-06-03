@@ -17,3 +17,5 @@ $ make run
 ```bash
 $ docker-compose up    
 ```
+
+Dockerfile2 is not used. It shows how it happened before becoming a multi-stage docker.
