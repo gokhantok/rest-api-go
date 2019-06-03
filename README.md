@@ -22,7 +22,7 @@ Dockerfile2 is not used. It shows how it happened before becoming a multi-stage 
 
 The APi provides a single endpoint `/events` that will respond to `GET` and `POST` methods. 
 
-## :rocket: API
+## API
 
 `GET /events?from=1234&to=1334&type=my_event` will return a number of aggregated events in the time between `1234` and `1334` (timestamps).
 Sample response:
